@@ -49,8 +49,6 @@ O projeto demonstra boas práticas de integração entre frontend e backend, con
 ├── package.json # Dependências do projeto
 └── README.md # Documentação do projeto
 
-yaml
-Copiar código
 
 ---
 
@@ -75,24 +73,20 @@ Configure as variáveis de ambiente no arquivo .env.
 
 Inicialize os containers Docker:
 
-bash
-Copiar código
+
 docker-compose up -d
 Instale as dependências do backend:
 
-bash
-Copiar código
+
 cd backend
 npm install
 Execute o servidor Node.js:
 
-bash
-Copiar código
+
 npm start
 Abra o frontend no navegador:
 
-arduino
-Copiar código
+
 http://localhost:<PORTA_DO_FRONTEND>
 ✅ Funcionalidades
 Integração entre frontend e backend via API REST
